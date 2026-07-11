@@ -66,12 +66,14 @@ header{
 
  .header{
     text-align: center;
-    margin:20px;
+    margin:50px;
+    font-size:50px;
  }
    .container{
    display: grid;
    grid-template-columns: repeat(2,1fr);
    gap: 25px;
+   
    
    }
    .card{
@@ -100,16 +102,17 @@ header{
    .spot{
     text-align: center;
     margin-top: 200px;
+    font-size: 30px;
    }
    .spot p{
     margin: 10px;
-    font-weight:200;
+    font-weight:300;
     font-size: small;
    }
    .card-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    max-width: 1500px;
+    max-width: 1200px;
     gap: 30px;
     margin: 80px auto;
    }
@@ -128,4 +131,19 @@ header{
     background:#0D1B2A;
     border-radius: 10px;
     padding: 20px;
+}
+.secure-your-spot-card p{
+    font-size: 10px;
+    color: gray;
+}
+.secure-your-spot-card-black p{
+    font-size: 10px;
+    color: rgb(37, 37, 201);
+}
+.secure-your-spot-card li{
+    margin: 10px;
+
+}
+.secure-your-spot-card-black li{
+      margin: 10px;
 }
