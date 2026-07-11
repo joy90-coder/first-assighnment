@@ -113,3 +113,19 @@ header{
     gap: 30px;
     margin: 80px auto;
    }
+   
+  .secure-your-spot-card{
+    display:flex;
+    flex-direction: column;
+    border: 1px solid rgb(183, 175, 175) ;
+    padding: 20px;
+    border-radius: 10px;
+  }
+.secure-your-spot-card-black{
+     display:flex;
+    flex-direction: column;
+    color: white;
+    background:#0D1B2A;
+    border-radius: 10px;
+    padding: 20px;
+}
