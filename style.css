@@ -277,5 +277,28 @@ header{
 
 .explore-btn:hover{
      transform:translateY(-5px);
-    box-shadow:0 10px 25px rgba(0,212,255,.4);
+    box-shadow:0 10px 25px rgba(135, 205, 219, 0.4);
+}
+footer{
+    background-color:#74ba98;
+}
+.footer-logo{
+    margin: 30px 40px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 20px 20px; */
+}
+.footer-social{
+    margin: 30px 40px;
+}
+
+
+.copyright-msg{
+    display: flex   ;
+    justify-content: space-between;
+    padding: 10px;
+   
 }
